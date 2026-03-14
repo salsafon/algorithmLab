@@ -14,6 +14,7 @@ export interface SortFrame {
   swapping?: number[];
   sorted?: number[];
   pivot?: number[];
+  codeLine?: number;
   done?: boolean;
 }
 
